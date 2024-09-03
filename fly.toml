@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for kckuma on 2024-09-03T11:35:01+05:30
+# fly.toml app configuration file generated for kckuma on 2024-09-03T11:47:33+05:30
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -7,7 +7,7 @@ app = 'kckuma'
 primary_region = 'sin'
 
 [build]
-  image = 'louislam/uptime-kuma:1.23.13'
+  image = 'louislam/uptime-kuma:1.22.1'
 
 [[mounts]]
   source = 'kuma_data'
